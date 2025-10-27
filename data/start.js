@@ -5,7 +5,7 @@ const app = express();
 
 const server = http.createServer(app);
 const settings = {
-    httpAdminRoot: "/",
+    httpAdminRoot: "/red",
     httpNodeRoot: "/api",
     userDir: "./data",
     functionGlobalContext: {}
